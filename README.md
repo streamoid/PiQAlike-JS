@@ -35,17 +35,17 @@ The below screenshots depicts user flow for Visual search feature
 
  - visual search button
 
-![Visual Search button](https://d30wzon9g8gc0d.cloudfront.net/ef1c3dbe-ec41-11e6-ba31-0649f9b7563d.jpg)
+![](screenshots/click%26find-1.png)
      
  - Uploading an image
  
-![Uploading an image](https://d30wzon9g8gc0d.cloudfront.net/f9aa4910-ec41-11e6-9da8-0649f9b7563d.jpg)
+![](screenshots/click%26find-2.png)
 
  - Selecting a region of interest
  
- ![Selecting a region of interest](https://d30wzon9g8gc0d.cloudfront.net/1e40a170-ec42-11e6-ba31-0649f9b7563d.jpg)
+ ![](screenshots/click%26find-3.png)
 
  - Results screen
  
- ![Results screen](https://d30wzon9g8gc0d.cloudfront.net/317635fc-ec42-11e6-ba31-0649f9b7563d.jpg)
+ ![](screenshots/click%26find-4.png)
 
