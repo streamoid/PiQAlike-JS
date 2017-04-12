@@ -13,18 +13,21 @@ Any fashion apparel/accessory that inspires an end-user, for example, that perfe
 
  1) Adding script in **head** tag
 
-
-    (function(i,s,o,g,r,t,k,a,m){
-     i['PiqitObject']=r;i['PiqitGa']=t;i['PiqitToken'] = k;i[r]=i[r]||function() {
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window, document, 'script', 'LOADER-URL', 'PQT', 'GOOGLEANALYTICS-ID', 'CLIENT TOKEN');
+```
+(function(i,s,o,g,r,t,k,a,m){
+         i['PiqitObject']=r;i['PiqitGa']=t;i['PiqitToken'] = k;i[r]=i[r]||function() {
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window, document, 'script', 'LOADER-URL', 'PQT', 'GA TRACKER-ID', 'CLIENT TOKEN');
+```         
 
   **Important Note** : If you are already using some other Streamoid's JS sdk in your website, you need not add the above script in **head ** tag twice
 
  2) Add the below line of code(div) in your html source code wherever you want to see the visual search button. A search button will be automatically added in your website. 
-    
-     <div class="streamoid_sdk streamoid-camera-button" data-token="CLIENT TOKEN" data-service="camera" data-function="initialize"></div>
+
+```
+ <div class="streamoid_sdk streamoid-camera-button" data-token="CLIENT TOKEN" data-service="camera" data-function="initialize"></div>
+ ```
 
 Please contact streamoid.support@streamoid.com to get your LOADER-URL, CLIENT TOKEN, GA TRACKER-ID
 
@@ -48,4 +51,7 @@ The below screenshots depicts user flow for Visual search feature
  - Results screen
  
  ![](screenshots/click%26find-4.png)
+
+
+
 
